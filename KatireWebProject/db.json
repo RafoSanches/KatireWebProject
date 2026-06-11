@@ -1,0 +1,195 @@
+{
+  "usuarios": [
+    {
+      "id": "1",
+      "nome": "Ana Costa",
+      "email": "ana@email.com",
+      "senha": "123456",
+      "avatar": "",
+      "cidade": "Belo Horizonte",
+      "estado": "MG",
+      "avaliacoes": 4.8,
+      "totalTrocas": 12
+    },
+    {
+      "id": "2",
+      "nome": "Carlos Silva",
+      "email": "carlos@email.com",
+      "senha": "123456",
+      "avatar": "",
+      "cidade": "São Paulo",
+      "estado": "SP",
+      "avaliacoes": 4.5,
+      "totalTrocas": 8
+    }
+  ],
+  "produtos": [
+    {
+      "id": "1",
+      "titulo": "Bicicleta Caloi 21 Marchas",
+      "descricao": "Bicicleta em ótimo estado, pouco uso. Aro 26, freios a disco.",
+      "categoria": "Esportes",
+      "condicao": "Usado - Bom estado",
+      "fotos": [],
+      "usuarioId": "1",
+      "usuario": "Ana Costa",
+      "cidade": "Belo Horizonte",
+      "estado": "MG",
+      "interesse": "Eletrônicos, Livros, Roupas",
+      "criadoEm": "2025-05-20T10:00:00Z",
+      "ativo": true
+    },
+    {
+      "id": "2",
+      "titulo": "Notebook Dell Inspiron",
+      "descricao": "Core i5, 8GB RAM, SSD 256GB. Funciona perfeitamente.",
+      "categoria": "Eletrônicos",
+      "condicao": "Usado - Ótimo estado",
+      "fotos": [],
+      "usuarioId": "2",
+      "usuario": "Carlos Silva",
+      "cidade": "São Paulo",
+      "estado": "SP",
+      "interesse": "Celular, Tablet, Câmera",
+      "criadoEm": "2025-05-21T11:00:00Z",
+      "ativo": true
+    },
+    {
+      "id": "3",
+      "titulo": "Coleção de Livros de Programação",
+      "descricao": "10 livros sobre JavaScript, Python e React. Todos em ótimo estado.",
+      "categoria": "Livros",
+      "condicao": "Usado - Ótimo estado",
+      "fotos": [],
+      "usuarioId": "1",
+      "usuario": "Ana Costa",
+      "cidade": "Belo Horizonte",
+      "estado": "MG",
+      "interesse": "Cursos online, Material escolar",
+      "criadoEm": "2025-05-22T09:00:00Z",
+      "ativo": true
+    },
+    {
+      "id": "4",
+      "titulo": "Guitarra Tagima TG-500",
+      "descricao": "Guitarra elétrica vermelha, cordas novas, bag inclusa.",
+      "categoria": "Música",
+      "condicao": "Usado - Bom estado",
+      "fotos": [],
+      "usuarioId": "2",
+      "usuario": "Carlos Silva",
+      "cidade": "São Paulo",
+      "estado": "SP",
+      "interesse": "Teclado, Violão, Equipamentos de som",
+      "criadoEm": "2025-05-23T14:00:00Z",
+      "ativo": true
+    },
+    {
+      "id": "5",
+      "titulo": "Câmera Canon EOS Rebel",
+      "descricao": "18MP, lente 18-55mm inclusa, carregador e bolsa.",
+      "categoria": "Fotografia",
+      "condicao": "Usado - Ótimo estado",
+      "fotos": [],
+      "usuarioId": "1",
+      "usuario": "Ana Costa",
+      "cidade": "Belo Horizonte",
+      "estado": "MG",
+      "interesse": "Drone, GoPro, Tripé profissional",
+      "criadoEm": "2025-05-24T08:00:00Z",
+      "ativo": true
+    },
+    {
+      "id": "6",
+      "titulo": "Sofá 3 Lugares Retrátil",
+      "descricao": "Sofá bege, tecido suede, muito conservado. Retirar no local.",
+      "categoria": "Móveis",
+      "condicao": "Usado - Bom estado",
+      "fotos": [],
+      "usuarioId": "2",
+      "usuario": "Carlos Silva",
+      "cidade": "São Paulo",
+      "estado": "SP",
+      "interesse": "Mesa de jantar, Estante, Poltrona",
+      "criadoEm": "2025-05-25T12:00:00Z",
+      "ativo": true
+    }
+  ],
+  "propostas": [
+    {
+      "id": "1",
+      "produtoOfertadoId": "1",
+      "produtoDesejadoId": "2",
+      "remetenteId": "1",
+      "destinatarioId": "2",
+      "remetente": "Ana Costa",
+      "destinatario": "Carlos Silva",
+      "produtoOfertado": "Bicicleta Caloi 21 Marchas",
+      "produtoDesejado": "Notebook Dell Inspiron",
+      "mensagem": "Olá! Tenho interesse no seu notebook. Minha bicicleta está em ótimo estado!",
+      "status": "pendente",
+      "criadaEm": "2025-05-26T10:00:00Z"
+    },
+    {
+      "id": "2",
+      "produtoOfertadoId": "4",
+      "produtoDesejadoId": "3",
+      "remetenteId": "2",
+      "destinatarioId": "1",
+      "remetente": "Carlos Silva",
+      "destinatario": "Ana Costa",
+      "produtoOfertado": "Guitarra Tagima TG-500",
+      "produtoDesejado": "Coleção de Livros de Programação",
+      "mensagem": "Adorei a coleção de livros. Troco pela guitarra?",
+      "status": "aceita",
+      "criadaEm": "2025-05-27T15:00:00Z"
+    }
+  ],
+  "avaliacoes": [
+    {
+      "id": "1",
+      "propostaId": "2",
+      "autorId": "2",
+      "autorNome": "Carlos Silva",
+      "autorAvatar": "",
+      "avaliadoId": "1",
+      "nota": 5,
+      "comentario": "Troca perfeita! Ana foi super atenciosa e o produto estava exatamente como descrito.",
+      "comunicacao": 5,
+      "descricaoProduto": 5,
+      "pontualidade": 5,
+      "criadaEm": "2025-05-28T10:00:00Z"
+    }
+  ],
+  "favoritos": [],
+  "mensagens": [
+    {
+      "id": "1",
+      "propostaId": "2",
+      "autorId": "2",
+      "autorNome": "Carlos Silva",
+      "texto": "Oi, Ana! Podemos combinar a entrega dos itens no sábado?",
+      "criadaEm": "2025-05-27T16:00:00Z"
+    },
+    {
+      "id": "2",
+      "propostaId": "2",
+      "autorId": "1",
+      "autorNome": "Ana Costa",
+      "texto": "Claro! Sábado pela manhã funciona para mim.",
+      "criadaEm": "2025-05-27T16:10:00Z"
+    }
+  ],
+  "notificacoes": [
+    {
+      "id": "1",
+      "usuarioId": "1",
+      "tipo": "proposta",
+      "titulo": "Nova proposta recebida",
+      "mensagem": "Carlos enviou uma proposta pela sua coleção de livros.",
+      "link": "/app/propostas",
+      "lida": false,
+      "criadaEm": "2025-05-27T15:00:00Z"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+KATIRE - ENTREGA FINAL
+======================
+
+COMO ABRIR
+----------
+1. Extraia todo o ZIP.
+2. Abra a pasta KatireWebProject.
+3. Execute INICIAR-KATIRE.bat.
+4. Aguarde e acesse http://localhost:4200.
+
+Alternativa pelo terminal, dentro da pasta:
+
+  npm install
+  npm run dev
+
+Aplicacao: http://localhost:4200
+Banco JSON Server: http://localhost:3000
+Dados persistidos: db.json
+
+Para uma apresentacao rapida sem instalar, abra index.html.
+
+CONTA DE DEMONSTRACAO
+---------------------
+E-mail: ana@email.com
+Senha: 123456
+
+RECURSOS INCLUIDOS
+------------------
+- Cadastro e login validados
+- Data de nascimento e preenchimento por CEP
+- Integracao com Google preparada por Client ID
+- Rotas protegidas
+- Produtos com CRUD, busca, filtros e upload
+- Propostas, chat e confirmacao de visualizacao
+- Favoritos e notificacoes
+- Avaliacoes, comentarios e reputacao
+- Dashboard, historico e estatisticas
+- Pontos seguros para troca
+- Modo escuro e responsividade
+
+ARQUIVOS DA ENTREGA
+-------------------
+- RELATORIO-KATIRE.pdf: relatorio solicitado pelo professor
+- RELATORIO-KATIRE.docx: versao editavel
+- index.html: prototipo completo
+- src/: aplicacao Angular
+- db.json: banco de dados local
+
+LOGIN GOOGLE
+------------
+Para ativar o botao Google real, crie um Client ID OAuth no Google Cloud,
+autorize http://localhost:4200 e informe o ID em google.config.json.
+O login comum funciona sem essa configuracao.
+
+IMPORTANTE
+----------
+O ZIP nao precisa de node_modules. O comando npm install recria as
+dependencias automaticamente.
